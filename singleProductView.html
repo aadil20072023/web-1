@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Product</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body>
+
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="assest/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text">
+            Bootstrap
+          </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar-->
+
+    <!--body section-->
+
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-6">
+                <img src="assest/v3.jpg" alt="Single Production" class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6">
+
+                <h1>Honor Magic V3</h1>
+                <p>Category: Mobile Phones</p>
+                <p>HONOR Magic V3 5G, The Slimmer The Strongest</p>
+                <h2 class="text-success">LKR. 450000</h2>
+
+                <div class="d-flex align-items-center">
+                    <div class="input-group me-4" style="width: 120px;">
+
+                        <button class="btn btn-outline-secondary">-</button>
+                        <input type="text" class="form-control text-center" value="1" disabled />
+                        <button class="btn btn-outline-secondary">+</button>
+                    </div>
+                    <button class="btn btn-primary ">Add to Cart</button>
+                </div>
+
+                <div class="mt-5">
+                    <h5>Product Details -</h5>
+                    <ul>
+                        <li>Inner screen: 7.92 inches</li>
+                        <li>Snapdragon 8 Gen chipset</li>
+                        <li>5150 mAh battery</li>
+                        <li>1024 GB storage</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <h2>Similar Products</h2>
+
+            <div class="col-md-3">
+                <div class="card">
+                  <img src="assest/GooglePixel6.jpeg" alt="mobile 5" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">Google Pixel 9</h3>
+                    <p class="card-text">LKR.  4500000.00</p>
+                    <a class="btn btn-primary w-100" href="singleProductView.html">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="assest/1.jpg" alt="mobile 5" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">16 Pro Max</h3>
+                    <p class="card-text">LKR.  4500000.00</p>
+                    <a class="btn btn-primary w-100" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="assest/2.jpg" alt="mobile 5" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">Z Fold 2</h3>
+                    <p class="card-text">LKR.  4500000.00</p>
+                    <a class="btn btn-primary w-100" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="assest/3.jpg" alt="mobile 5" class="card-img-top">
+                  <div class="card-body">
+                    <h3 class="card-title">Xiaomi 14 Ultra</h3>
+                    <p class="card-text">LKR.  3500000.00</p>
+                    <a class="btn btn-primary w-100" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+          
+
+        </div>
+    </div>
+
+    <!--body section-->
+
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 ProWeb. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
